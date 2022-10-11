@@ -37,6 +37,130 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "https://api.todoist.com/rest/v1/projects",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "89ade937e5aeeb48bdf2885420fe4605a645ef27",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 0123456789abcdef0123456789abcdef01234567"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sync_token",
+							"value": "kMiTgSIk6QGD83xqMJ9ILknYyEsOoLXyFCnnXvkb4mb0oCK0-IwpKfdGvrcf",
+							"type": "text"
+						},
+						{
+							"key": "resource_types",
+							"value": "[\"projects\"]",
+							"type": "text"
+						},
+						{
+							"key": "commands",
+							"value": "[\n    {\n        \"type\": \"project_add\",\n        \"temp_id\": \"24a193a7-46f7-4314-b984-27b707bd2331\",\n        \"uuid\": \"e23db5ec-2f73-478a-a008-1cb4178d2fd1\",\n        \"args\": { \"name\": \"Shopping List\" }\n    }]",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "TEst hafiz1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.todoist.com/rest/v1/projects",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v1",
+						"projects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.todoist.com/rest/v1/projects",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ea27e950fe7c257853aff9e8691265b628d3ebda",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 0123456789abcdef0123456789abcdef01234567"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sync_token",
+							"value": "kMiTgSIk6QGD83xqMJ9ILknYyEsOoLXyFCnnXvkb4mb0oCK0-IwpKfdGvrcf",
+							"type": "text"
+						},
+						{
+							"key": "resource_types",
+							"value": "[\"projects\", \"items\"]",
+							"type": "text"
+						},
+						{
+							"key": "commands",
+							"value": "[\n    {\n        \"type\": \"project_add\",\n        \"temp_id\": \"24a193a7-46f7-4314-b984-27b707bd2331\",\n        \"uuid\": \"e23db5ec-2f73-478a-a008-1cb4178d2fd1\",\n        \"args\": { \"name\": \"Shopping List\" }\n    }]",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "TEst hafiz",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.todoist.com/rest/v1/projects",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v1",
+						"projects"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
